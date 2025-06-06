@@ -1,0 +1,21 @@
+.{
+    .name = .Micro_XRCE_DDS_Client,
+    .version = "3.0.0",
+    .fingerprint = 0x92bb389333d38e8b, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .uxr_client = .{
+            // v3.0.0
+            .url = "https://github.com/eprosima/Micro-XRCE-DDS-Client/archive/9e05a62f3352ce5bf1cec0d2b518391179213ce6.tar.gz",
+            .hash = "N-V-__8AAEbJNADKD1iH7T25R8DUogM01pDERE_CNCO-GyAX",
+        },
+        .microcdr = .{
+            .url = "https://github.com/JacobCrabill/zig-Micro-CDR/archive/2f9de9935faa2ae42586c3a03f5b8131ac327ac0.tar.gz",
+            .hash = "microcdr-2.0.1-8sp6bosKAACsIO_8DJnpcrqE7FeEHQK04mgQZ59Edb28",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
