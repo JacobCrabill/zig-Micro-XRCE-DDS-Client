@@ -150,7 +150,6 @@ const transport_files: []const []const u8 = &.{
     "profile/transport/serial/serial_transport_posix.c",
     "profile/transport/ip/ip_posix.c",
     "profile/discovery/discovery.c",
-    "profile/transport/ip/udp/udp_transport.c",
     "profile/discovery/transport/udp_transport_datagram_posix.c",
     "profile/transport/custom/custom_transport.c",
 };
